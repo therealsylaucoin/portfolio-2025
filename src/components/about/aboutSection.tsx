@@ -25,7 +25,7 @@ const TextContainer = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  background-image: url("src/assets/headshotBg.png"); 
+  background-image: url("/assets/headshotBg.png"); 
   display: flex;
   justify-content: center;
 `
@@ -44,7 +44,7 @@ const AboutSection = () => {
         ))}
       </TextContainer>
       <ImageContainer>
-        <img src="src/assets/headshot.png" aria-label={t("headshotAriaLabel")}/>
+        <img src="/assets/headshot.png" aria-label={t("headshotAriaLabel")}/>
       </ImageContainer>
     </Wrapper>
   );

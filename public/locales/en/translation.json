@@ -35,21 +35,21 @@
             "title": "PC Optimum",
             "description": "Dashboard page, Deals for You section, Mobile phone 2FA feature",
             "liveUrl": "https://www.pcoptimum.ca/dashboard",
-            "imageUrl": "src/assets/projects/pcOptimumMockup.png"
+            "imageUrl": "assets/pcOptimumMockup.png"
         },
         {
             "title": "Personal Portfolio 1.0",
             "description": "My first Portfolio",
             "liveUrl": "https://sylcodes.com",
             "githubUrl": "https://github.com/therealsylaucoin/therealsylaucoin.github.io",
-            "imageUrl": "src/assets/projects/oldPortfolioMockup.png"
+            "imageUrl": "assets/oldPortfolioMockup.png"
         },
         {
             "title": "Monster Mash",
             "description": "Heavily inspired by one of my favourite songs, the Monster Mash. A classic memory card game, which includes two modes (friendly and scary), three difficulty levels and a move counter.",
             "liveUrl": "https://themonstermash.netlify.app",
             "githubUrl": "https://github.com/therealsylaucoin/monsterMash",
-            "imageUrl": "src/assets/projects/monsterMashMockup.png"
+            "imageUrl": "assets/monsterMashMockup.png"
         },
         {
             "title": "Oblique Strategies",
@@ -57,21 +57,21 @@
             "liveUrl": "https://obliquecollective.netlify.app",
             "githubUrl": "https://github.com/therealsylaucoin/obliqueCollective",
             "demoUrl": "https://www.loom.com/share/589c82b7ce9d437f972950c68fd59271",
-            "imageUrl": "src/assets/projects/obliqueStrategiesMockup.png"
+            "imageUrl": "assets/obliqueStrategiesMockup.png"
         },
         {
             "title": "Sport Spot",
             "description": "A pair programming project that uses geolocation to provide the user with sports facilities close to them for a variety of sports. Should the user choose to opt out of sharing their location, facilities are provided for selected cities.",
             "liveUrl": "https://thesportspot.netlify.app",
             "githubUrl": "https://github.com/socoin-and-vhok/syl-aucoin-and-victor-hok-project4",
-            "imageUrl": "src/assets/projects/sportSpotMockup.png"
+            "imageUrl": "assets/sportSpotMockup.png"
         },
         {
             "title": "Shoe Kloset",
             "description": "A fully responsive three page PSD conversion using flexbox and grid.",
             "liveUrl": "https://sylshoekloset.netlify.app",
             "githubUrl": "https://github.com/therealsylaucoin/shoeKloset",
-            "imageUrl": "src/assets/projects/shoeKlosetMockup.png"
+            "imageUrl": "assets/shoeKlosetMockup.png"
         }
     ],
     "skillsHeading": "Skills",

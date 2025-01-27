@@ -40,8 +40,8 @@
         {
             "title": "Personal Portfolio 1.0",
             "description": "My first Portfolio",
-            "liveUrl": "/",
-            "githubUrl": "/",
+            "liveUrl": "https://sylcodes.com",
+            "githubUrl": "https://github.com/therealsylaucoin/therealsylaucoin.github.io",
             "imageUrl": "src/assets/projects/oldPortfolioMockup.png"
         },
         {

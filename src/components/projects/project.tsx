@@ -13,6 +13,7 @@ const Wrapper = styled.li`
   justify-content: space-between;
   padding: 15px;
   border-radius: 20px;
+  margin-bottom: 20px;
 
   @media ${device.tablet} {
     width: 40%;

@@ -40,8 +40,8 @@
         {
             "title": "Portfolio Personel 1.0",
             "description": "Mon premier portfolio",
-            "liveUrl": "/",
-            "githubUrl": "/",
+            "liveUrl": "https://sylcodes.com",
+            "githubUrl": "https://github.com/therealsylaucoin/therealsylaucoin.github.io",
             "imageUrl": "src/assets/projects/oldPortfolioMockup.png"
         },
         {

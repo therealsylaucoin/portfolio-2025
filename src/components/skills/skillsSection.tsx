@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import DynamicText from "./shared/dynamicText";
+import DynamicText from "../shared/dynamicText";
 
 const SkillsSection = () => {
   const { t, ready } = useTranslation();

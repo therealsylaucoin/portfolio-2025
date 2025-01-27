@@ -1,5 +1,5 @@
-import LocaleSwitcher from "../i18n/LocaleSwitcher";
-import DynamicText from "./shared/dynamicText";
+import LocaleSwitcher from "../../i18n/LocaleSwitcher";
+import DynamicText from "../shared/dynamicText";
 
 const Header = () => {
   return (

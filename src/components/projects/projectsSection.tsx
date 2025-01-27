@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import DynamicText from "./shared/dynamicText";
-import DynamicLink from "./shared/dynamicLink";
+import DynamicLink from "../shared/dynamicLink";
+import DynamicText from "../shared/dynamicText";
 import { ProjectProps } from "./types";
 
 const ProjectsSection = () => {
@@ -19,12 +19,12 @@ const ProjectsSection = () => {
         <li key={project.title}>
           <DynamicText t={project.title} />
           <DynamicText t={project.description} />
-          <DynamicLink href={project.liveUrl} t="projectsLiveLink" ariaLabel="projectsLiveLink"/>
+          <DynamicLink href={project.liveUrl} t="projectsLiveLink" ariaLabel="projectsLiveAria"/>
           {project.githubUrl && (
-            <DynamicLink href={project.githubUrl} t="projectsGithubLink" ariaLabel="projectsGithubLink"/>
+            <DynamicLink href={project.githubUrl} t="projectsGithubLink" ariaLabel="projectsGithubAria"/>
           )}
           {project.demoUrl && (
-            <DynamicLink href={project.demoUrl} t="projectsDemoLink" ariaLabel="projectsDemoLink"/>
+            <DynamicLink href={project.demoUrl} t="projectsDemoLink" ariaLabel="projectsDemoAria"/>
           )}
           <img src={project.imageUrl} aria-label={`${t("projectsImgAriaLabel")}${project.title}`}/>
         </li>

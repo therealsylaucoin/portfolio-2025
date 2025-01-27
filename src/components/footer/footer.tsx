@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import DynamicLink from "./shared/dynamicLink";
-import DynamicText from "./shared/dynamicText";
+import DynamicLink from "../shared/dynamicLink";
+import DynamicText from "../shared/dynamicText";
 import { SocialProps } from "./types";
 
 const Footer = () => {

@@ -1,68 +1,62 @@
 {       
-    "heading": "Hi, I'm Syl Aucoin,",
-    "subheading": "and I'm a Web Developer.",
-    "headerLink": "Work with me",
+    "heading": "Bonjour, j'suis Syl Aucoin,",
+    "subheading": "et j'suis développeur web.",
+    "headerLink": "Travaillons ensemble",
     "about": [
         {
-            "copy": "About Syl Aucoin",
+            "copy": "A propos de Syl Aucoin",
             "type": "h2"
         },
         {
-            "copy": "I am passionate about building!",
+            "copy": "La création me passionne, à la fois avec mes mains et mon cœur.",
             "type": "p"
         },
         {
-            "copy": "Building with the hands: I’m naturally handy and have always found satisfaction in making things: from furniture to pottery, from inventing games to creating menus, and so much more. I love dabbling with new hobbies on a regular basis, always enjoying the process as much as the result.",
+            "copy": "Avec mes mains - j'adore créer. Du mobilier à la poterie, en inventant des jeux et en essayant de nouveaux passe-temps. C'est grâce à mon amour pour la création que j'ai découvert le développement web, où le code ressemble à jouer aux jeux vidéo (et j'adore les jeux). Je suis motivé à apprendre davantage pour résoudre des problèmes, explorer différentes approches et voir des idées prendre vie.",
             "type": "p"
         },
         {
-            "copy": "This passion for building is what drove me to learning web development. Learning to code and solving problems on my screen immediately felt like playing video games to me (for context, I REALLY love video games). I’m constantly amazed at how powerful a few lines of code can be and in awe of the results being rendered. The variety of different ways to approach a problem keeps me on my toes and I’m excited to keep learning and discovering techniques, languages and frameworks.",
+            "copy": "Avec mon coeur - Ce sont les connexions avec les gens autour de moi qui nourrissent mon cœur. J’aime écouter, soutenir et aider les autres, que ce soit en leur donnant un coup de main, en leur offrant une nouvelle perspective ou simplement en étant quelqu’un sur qui les gens peuvent compter. Je crois que le positif et la création de communautés peuvent faire une différence significative.",
             "type": "p"
         },
         {
-            "copy": "Building with the heart: I’m what people call a people person. I simply love being around others, listening to people’s stories, passions, problems and ideas. I never miss an opportunity to lend a helping hand, or to provide a place for others to approach things differently (which I find is often the best help!). I take pride in having built the reputation of being someone others can count on whether they need to get something done, a laugh, or are looking to be heard and supported. I believe that fostering positivity and community building can have a huge impact on those around me.",
-            "type": "p"
-        },
-        {
-            "copy": "I’m excited to step into a role within a collaborative environment where I will continue to hone my skills and keep growing as a developer. Let’s connect!",
-            "type": "p"
-        },
-        {
-            "copy": "I also speak Emglish!",
+            "copy": "I also speak English!",
             "type": "p"
         }
     ],
     "headshotAriaLabel": "Une photo de Syl",
-    "projectsHeading": "My Work",
-    "projectsCopy": "Here is my work",
-    "projectsGithubLink": "View project GitHub",
-    "projectsLiveLink": "View Live",
-    "projectsDemoLink": "View Demo",
-    "projectsImgAriaLabel": "A laptop and mobile mockup of: ",
+    "projectsHeading": "Mes projets",
+    "projectsGithubLink": "GitHub",
+    "projectsGithubAria": "Voir le repertoire du project sur GitHub",
+    "projectsLiveLink": "Live",
+    "projectsLiveAria": "Voir Live",
+    "projectsDemoLink": "Demo",
+    "projectsDemoAria": "Voir Demo",
+    "projectsImgAriaLabel": "Une maquette d'un ordio et d'un téléphone portable de: ",
     "projects": [
         {
             "title": "PC Optimum",
-            "description": "",
+            "description": "Tableau de bord, Aubaines mon magasin, Fonction 2FA téléphone mobile",
             "liveUrl": "https://www.pcoptimum.ca/dashboard",
             "imageUrl": "src/assets/projects/pcOptimumMockup.png"
         },
         {
-            "title": "Personal Portfolio 1.0",
-            "description": "My old Portfolio",
+            "title": "Portfolio Personel 1.0",
+            "description": "Mon premier portfolio",
             "liveUrl": "/",
             "githubUrl": "/",
             "imageUrl": "src/assets/projects/oldPortfolioMockup.png"
         },
         {
             "title": "Monster Mash",
-            "description": "Heavily inspired by one of my favourite songs, the Monster Mash. A classic memory card game, which includes two modes (friendly and scary), three difficulty levels and a move counter.",
+            "description": "Fortement inspiré par l’une de mes chansons préférées, Monster Mash. Un jeu de carte mémoire classique, qui comprend deux modes (amical et effrayant), trois niveaux de difficulté et un compteur de mouvements.",
             "liveUrl": "https://themonstermash.netlify.app",
             "githubUrl": "https://github.com/therealsylaucoin/monsterMash",
             "imageUrl": "src/assets/projects/monsterMashMockup.png"
         },
         {
             "title": "Oblique Strategies",
-            "description": "A take on Brian Eno's timeless lateral thinking deck. Allows the user to draw a random card from the Oblique Strategies, or from Collective Strategies deck which is populated by user submissions. The user can also tweet the strategy they picked.",
+            "description": "Une version de l’intemporelle réflexion latérale de Brian Eno. Permet à l’utilisateur de tirer une carte au hasard des Oblique Strategies, ou du jeu de Collective Strategies qui est crée par les soumissions d’utilisateurs. L’utilisateur peut également tweeter la stratégie qu’il a choisie.",
             "liveUrl": "https://obliquecollective.netlify.app",
             "githubUrl": "https://github.com/therealsylaucoin/obliqueCollective",
             "demoUrl": "https://www.loom.com/share/589c82b7ce9d437f972950c68fd59271",
@@ -70,32 +64,23 @@
         },
         {
             "title": "Sport Spot",
-            "description": "A pair programming project that uses geolocation to provide the user with sports facilities close to them for a variety of sports. Should the user choose to opt out of sharing their location, facilities are provided for selected cities.",
+            "description": "Un projet de programmation en paire qui utilise la géolocalisation pour fournir à l’utilisateur des installations sportives à proximité pour une variété de sports. Si l’utilisateur choisit de ne pas partager sa localisation, des services sont fournis pour les villes sélectionnées.",
             "liveUrl": "https://thesportspot.netlify.app",
             "githubUrl": "https://github.com/socoin-and-vhok/syl-aucoin-and-victor-hok-project4",
             "imageUrl": "src/assets/projects/sportSpotMockup.png"
         },
         {
-            "title": "House Plant Quiz",
-            "description": "A simple quiz to determine which plant is best suited for your home.",
-            "liveUrl": "https://plantquiz.netlify.app",
-            "githubUrl": "https://github.com/therealsylaucoin/plantQuiz",
-            "imageUrl": "src/assets/projects/houseplantQuizMockup.png"
-        },
-        {
             "title": "Shoe Kloset",
-            "description": "A fully responsive three page PSD conversion using flexbox and grid.",
+            "description": "Une conversion PSD de trois pages entièrement adaptée aux différents écrans faite à l’aide de flexion et de grid.",
             "liveUrl": "https://sylshoekloset.netlify.app",
             "githubUrl": "https://github.com/therealsylaucoin/shoeKloset",
             "imageUrl": "src/assets/projects/shoeKlosetMockup.png"
         }
     ],
-    "skillsHeading": "Skills",
-    "skillsCopy": "Before attending Juno College of Technology, I’ve acquired a vast set of skills through working and contributing on a variety of projects and close to two decades of working as a support, business operations and culinary professional. I’m a well rounded developer with an impressive mix of organizational, creative, technical and interpersonal skills.",
-    "skillsTop": "My top skills include: Execution, being great with people, and project management.",
+    "skillsHeading": "Compétences",
+    "skillsCopy": "Avant d'être admise au Juno College, j'ai investi près de vingts ans à améliorer mes compétences en soutien, en gestion des affaires et en cuisine et traiteur. Cette expérience m'a permis de devenir un développeur complet, en combinant une expertise organisationnelle, créative, technique et interpersonnelle.",
+    "skillsTop": "Mes compétences principales sont : l’exécution, les relations interpersonnelles et la gestion de projet.",
     "skillsFrontEndHeading": "Front End",
-    "skillsStylingHeading": "Styling & Design",
-    "skillsMiscHeading": "Miscellaneous",
     "skillsFrontEndList": [
         "HTML",
         "JavaScript",
@@ -105,18 +90,20 @@
         "Vue",
         "Redux",
         "Firebase",
-        "Accessibility"
+        "Accessibilité"
     ],
+    "skillsStylingHeading": "Style & Design",
     "skillsStylingList": [
         "CSS",
         "SASS",
         "BootStrap",
         "Tailwind CSS",
-        "Styled-Components",
+        "styled-components",
         "CSS Modules",
         "Figma",
-        "Responsive Design"
+        "Conception réactive"
     ],
+    "skillsMiscHeading": "Variées",
     "skillsMiscList": [
         "Terminal",
         "Git",
@@ -124,7 +111,7 @@
         "Rest API",
         "npm",
         "VS Code",
-        "Pair Programing",
+        "Programmation en paire",
         "Monorepos",
         "Docker",
         "Jest",
@@ -134,7 +121,7 @@
     "socials": [
         {
             "name": "Github",
-            "ariaLabel": "Github",
+            "ariaLabel": "Lien vers Github",
             "href": "https://github.com/therealsylaucoin"
         },
         {
@@ -144,15 +131,15 @@
         },
         {
             "name": "Linkedin",
-            "ariaLabel": "linkedin",
+            "ariaLabel": "Lien vers linkedin",
             "href": "https://www.linkedin.com/in/sylvieaucoin"
         },
         {
             "name": "Instagram",
-            "ariaLabel": "instagram",
+            "ariaLabel": "Lien vers instagram",
             "href": "https://www.instagram.com/sylaucoin"
         }
     ],
-    "getInTouch": "I'd love to connect!",
+    "getInTouch": "Soyons connectés!",
     "footer": "Crée par Syl Aucoin 2025"
 }

@@ -1,30 +1,22 @@
 {
     "heading": "Hi, I'm Syl Aucoin,",
     "subheading": "and I'm a Web Developer.",
-    "headerLink": "Work with me",
+    "headerLink": "Let's work together",
     "about": [
         {
             "copy": "About Syl Aucoin",
             "type": "h2"
         },
         {
-            "copy": "I am passionate about building!",
+            "copy": "I’m passionate about building — both with my hands and my heart.",
             "type": "p"
         },
         {
-            "copy": "Building with the hands: I’m naturally handy and have always found satisfaction in making things: from furniture to pottery, from inventing games to creating menus, and so much more. I love dabbling with new hobbies on a regular basis, always enjoying the process as much as the result.",
+            "copy": "With my hands - I find joy in creating. From furniture to pottery, inventing games, and trying new hobbies. This love for making has led me to web development, where coding feels like playing video games (and I really love games). Solving problems, exploring different approaches, and seeing ideas come to life keeps me excited to learn more.",
             "type": "p"
         },
         {
-            "copy": "This passion for building is what drove me to learning web development. Learning to code and solving problems on my screen immediately felt like playing video games to me (for context, I REALLY love video games). I’m constantly amazed at how powerful a few lines of code can be and in awe of the results being rendered. The variety of different ways to approach a problem keeps me on my toes and I’m excited to keep learning and discovering techniques, languages and frameworks.",
-            "type": "p"
-        },
-        {
-            "copy": "Building with the heart: I’m what people call a people person. I simply love being around others, listening to people’s stories, passions, problems and ideas. I never miss an opportunity to lend a helping hand, or to provide a place for others to approach things differently (which I find is often the best help!). I take pride in having built the reputation of being someone others can count on whether they need to get something done, a laugh, or are looking to be heard and supported. I believe that fostering positivity and community building can have a huge impact on those around me.",
-            "type": "p"
-        },
-        {
-            "copy": "I’m excited to step into a role within a collaborative environment where I will continue to hone my skills and keep growing as a developer. Let’s connect!",
+            "copy": "With my heart - I’m a people person who thrives on connection. I enjoy listening, supporting, and helping others, whether by lending a hand, offering a fresh perspective, or just being someone people can count on. I believe positivity and community-building can make a meaningful difference.",
             "type": "p"
         },
         {
@@ -34,21 +26,23 @@
     ],
     "headshotAriaLabel": "A headshot of Syl",
     "projectsHeading": "My Work",
-    "projectsCopy": "Here is my work",
-    "projectsGithubLink": "View project GitHub",
-    "projectsLiveLink": "View Live",
-    "projectsDemoLink": "View Demo",
+    "projectsGithubLink": "Github",
+    "projectsGithubAria": "View project repository on GitHub",
+    "projectsLiveLink": "Live",
+    "projectsLiveAria": "View Live",
+    "projectsDemoLink": "Demo",
+    "projectsDemoAria": "View Demo",
     "projectsImgAriaLabel": "A laptop and mobile mockup of: ",
     "projects": [
         {
             "title": "PC Optimum",
-            "description": "",
+            "description": "Dashboard page, Deals for You section, Mobile phone 2FA feature",
             "liveUrl": "https://www.pcoptimum.ca/dashboard",
             "imageUrl": "src/assets/projects/pcOptimumMockup.png"
         },
         {
             "title": "Personal Portfolio 1.0",
-            "description": "My old Portfolio",
+            "description": "My first Portfolio",
             "liveUrl": "/",
             "githubUrl": "/",
             "imageUrl": "src/assets/projects/oldPortfolioMockup.png"
@@ -76,13 +70,6 @@
             "imageUrl": "src/assets/projects/sportSpotMockup.png"
         },
         {
-            "title": "House Plant Quiz",
-            "description": "A simple quiz to determine which plant is best suited for your home.",
-            "liveUrl": "https://plantquiz.netlify.app",
-            "githubUrl": "https://github.com/therealsylaucoin/plantQuiz",
-            "imageUrl": "src/assets/projects/houseplantQuizMockup.png"
-        },
-        {
             "title": "Shoe Kloset",
             "description": "A fully responsive three page PSD conversion using flexbox and grid.",
             "liveUrl": "https://sylshoekloset.netlify.app",
@@ -91,11 +78,9 @@
         }
     ],
     "skillsHeading": "Skills",
-    "skillsCopy": "Before attending Juno College of Technology, I’ve acquired a vast set of skills through working and contributing on a variety of projects and close to two decades of working as a support, business operations and culinary professional. I’m a well rounded developer with an impressive mix of organizational, creative, technical and interpersonal skills.",
-    "skillsTop": "My top skills include: Execution, being great with people, and project management.",
+    "skillsCopy": "Before attending Juno College, I spent nearly two decades honing skills in support, business operations, and culinary roles. This experience shaped me into a well-rounded developer with a unique blend of organizational, creative, technical, and interpersonal expertise.",
+    "skillsTop": "My top skills include: Execution, interpersonal relationships, and project management.",
     "skillsFrontEndHeading": "Front End",
-    "skillsStylingHeading": "Styling & Design",
-    "skillsMiscHeading": "Miscellaneous",
     "skillsFrontEndList": [
         "HTML",
         "JavaScript",
@@ -107,16 +92,18 @@
         "Firebase",
         "Accessibility"
     ],
+    "skillsStylingHeading": "Styling & Design",
     "skillsStylingList": [
         "CSS",
         "SASS",
         "BootStrap",
         "Tailwind CSS",
-        "Styled-Components",
+        "styled-components",
         "CSS Modules",
         "Figma",
         "Responsive Design"
     ],
+    "skillsMiscHeading": "Miscellaneous",
     "skillsMiscList": [
         "Terminal",
         "Git",
@@ -139,17 +126,17 @@
         },
         {
             "name": "Linkedin",
-            "ariaLabel": "linkedin",
+            "ariaLabel": "link to linkedin",
             "href": "https://www.linkedin.com/in/sylvieaucoin"
         },
         {
             "name": "Github",
-            "ariaLabel": "Github",
+            "ariaLabel": "Link to Github",
             "href": "https://github.com/therealsylaucoin"
         },
         {
             "name": "Instagram",
-            "ariaLabel": "instagram",
+            "ariaLabel": "Link to instagram",
             "href": "https://www.instagram.com/sylaucoin"
         }
     ],

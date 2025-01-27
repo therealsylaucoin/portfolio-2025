@@ -3,16 +3,24 @@ import DynamicLink from "../shared/dynamicLink";
 import DynamicText from "../shared/dynamicText";
 import { ProjectProps } from "./types";
 import styled from "styled-components";
-import { theme } from "../../styles/theme";
+import { theme, device } from "../../styles/theme";
 
 const Wrapper = styled.li`
   background-color: rgba(0, 0, 0, .25);
-  width: 25%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
+
+  @media ${device.tablet} {
+    width: 40%;
+  }
+
+  @media ${device.laptop} {
+    width: 25%;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -34,12 +42,18 @@ const Project = ({ project }: ProjectProps) => {
       <div>
         <DynamicText t={title} color={theme.colors.green} size={theme.fonts.md}/>
         <DynamicText t={description} />
-        <DynamicLink href={liveUrl} t="projectsLiveLink" ariaLabel="projectsLiveAria"/>
+        <p>
+          <DynamicLink href={liveUrl} t="projectsLiveLink" ariaLabel="projectsLiveAria"/>
+        </p>
         {githubUrl && (
-          <DynamicLink href={githubUrl} t="projectsGithubLink"  ariaLabel="projectsGithubAria"/>
+          <p>
+            <DynamicLink href={githubUrl} t="projectsGithubLink"  ariaLabel="projectsGithubAria"/>
+          </p>
         )}
         {demoUrl && (
-          <DynamicLink href={demoUrl} t="projectsDemoLink" ariaLabel="projectsDemoAria"/>
+          <p>
+            <DynamicLink href={demoUrl} t="projectsDemoLink" ariaLabel="projectsDemoAria"/>
+          </p>
         )}
       </div>
       <ImageContainer>

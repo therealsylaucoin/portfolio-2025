@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { device } from './theme';
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -8,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: lighter;
     font-size: 1rem;
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1440px;
   }
   h1 {
     margin: 0;
@@ -34,6 +35,10 @@ export const GlobalStyles = createGlobalStyle`
   header,
   section,
   footer {
-    padding: 50px;
+    padding: 20px;
+    
+    @media ${device.tablet} {
+      padding: 50px;
+    }
   }
 `;

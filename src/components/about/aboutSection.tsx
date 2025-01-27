@@ -2,21 +2,32 @@ import { useTranslation } from "react-i18next";
 import DynamicText from "../shared/dynamicText";
 import { AboutProps } from "./types";
 import styled from "styled-components";
-import { theme } from "../../styles/theme";
+import { theme, device } from "../../styles/theme";
 
 const Wrapper = styled.section`
   display: flex;
   justify-content: space-between;
   background-color: ${theme.colors.hunter};
   padding: 0;
+  flex-direction: column;
+  
+  @media ${device.tablet} {
+    flex-direction: row;
+  }
 `;
 
 const TextContainer = styled.div`
-  padding: 50px;
+  padding: 20px;
+  
+  @media ${device.tablet} {
+    padding: 50px;
+  }
 `;
 
 const ImageContainer = styled.div`
   background-image: url("src/assets/headshotBg.png"); 
+  display: flex;
+  justify-content: center;
 `
 
 const AboutSection = () => {
@@ -27,7 +38,7 @@ const AboutSection = () => {
   return (
     <Wrapper>
       <TextContainer>
-        <DynamicText type="h2" t="aboutHeading" color={theme.colors.green}/>
+        <DynamicText type="h2" t="aboutHeading" color={theme.colors.green} size={theme.fonts.l}/>
         {about.map(({type, copy}, index) => (
           <DynamicText key={index} type={type} t={copy}/>
         ))}

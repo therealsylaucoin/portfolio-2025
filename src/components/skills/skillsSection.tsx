@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import DynamicText from "../shared/dynamicText";
 import styled from "styled-components";
-import { theme } from "../../styles/theme";
+import { theme, device } from "../../styles/theme";
 
 const SkillTypeWrapper = styled.div`
   display: flex;
@@ -10,16 +10,25 @@ const SkillTypeWrapper = styled.div`
 `;
 
 const GridWrapper = styled.div`
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 5rem;
+  display: flex;
+  flex-direction: column;
+
+  @media ${device.tablet} {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5rem;
+  }
 `
 const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  @media ${device.tablet} {
+    grid-area: 1 / 1 / 2 / 2;
+  }
 `
 const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 3;
+  @media ${device.tablet} {
+    grid-area: 1 / 2 / 2 / 3;
+  }
 `
 
 const SkillsSection = () => {

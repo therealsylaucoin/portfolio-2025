@@ -2,7 +2,7 @@
     "heading": "Bonjour, j'suis Syl Aucoin,",
     "subheading": "et j'suis développeur web.",
     "headerLink": "Travaillons ensemble",
-    "aboutHeading": "A propos de Syl Aucoin",
+    "aboutHeading": "A propos de Syl",
     "about": [
         {
             "copy": "La création me passionne, à la fois avec mes mains et mon cœur.",
@@ -89,7 +89,7 @@
         "Firebase",
         "Accessibilité"
     ],
-    "skillsStylingHeading": "Style & Design",
+    "skillsStylingHeading": "Style",
     "skillsStylingList": [
         "CSS",
         "SASS",

@@ -5,7 +5,7 @@ export const DynamicLink = ({ t, href, ariaLabel }: DynamicLinkProps) => {
   const { t: translate } = useTranslation();
 
   return <a href={href} aria-label={ariaLabel}>
-    <p>{translate(t)}</p>
+    <span>{translate(t)}</span>
   </a>;
 };
 

@@ -2,11 +2,6 @@ import { useTranslation } from "react-i18next";
 import DynamicLink from "../shared/dynamicLink";
 import DynamicText from "../shared/dynamicText";
 import { SocialProps } from "./types";
-import styled from "styled-components";
-
-const ListItem = styled.li`
-    text-align: right;
-`
 
 const Footer = () => {
     const { t, ready } = useTranslation();
@@ -14,13 +9,13 @@ const Footer = () => {
     const socials = t("socials", { returnObjects: true }) as SocialProps[];
 
     return (
-        <footer>
+        <footer id="footer">
             <DynamicText t="getInTouch" size="3rem"/>
             <ul>
             {socials.map(({name, href, ariaLabel}) => (
-                <ListItem key={name}>
+                <li key={name}>
                     <DynamicLink t={name} href={href} ariaLabel={ariaLabel}/>
-                </ListItem>
+                </li>
             ))}
             </ul>
         </footer>

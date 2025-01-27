@@ -2,7 +2,7 @@
     "heading": "Hi, I'm Syl Aucoin,",
     "subheading": "and I'm a Web Developer.",
     "headerLink": "Let's work together",
-    "aboutHeading": "About Syl Aucoin",
+    "aboutHeading": "About Syl",
     "about": [
         {
             "copy": "I’m passionate about building — both with my hands and my heart.",
@@ -89,7 +89,7 @@
         "Firebase",
         "Accessibility"
     ],
-    "skillsStylingHeading": "Styling & Design",
+    "skillsStylingHeading": "Styling",
     "skillsStylingList": [
         "CSS",
         "SASS",
@@ -137,5 +137,5 @@
             "href": "https://www.instagram.com/sylaucoin"
         }
     ],
-    "getInTouch": "I'd love to connect!"
+    "getInTouch": "Let's connect!"
 }

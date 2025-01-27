@@ -2,9 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   body {
-    background-color: ${({ theme }) => theme.colors.mauve};
-    color: ${({ theme }) => theme.colors.black};
-    font-family: "Jost", serif;
+    background-color: ${({ theme }) => theme.colors.purple};
+    color: ${({ theme }) => theme.colors.white};
+    font-family: "Host Grotesk", serif;
   }
   ul {
     padding: 0;

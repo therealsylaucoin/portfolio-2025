@@ -1,5 +1,5 @@
 import Header from './components/header';
-import AboutSection from './components/aboutSection';
+import AboutSection from './components/about/aboutSection';
 import ProjectsSection from './components/projectsSection';
 import SkillsSection from './components/skillsSection';
 import Footer from './components/footer';

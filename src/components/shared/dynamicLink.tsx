@@ -1,10 +1,5 @@
 import { useTranslation } from "react-i18next";
-
-interface DynamicLinkProps {
-  t: string;
-  href: string;
-  ariaLabel: string;
-}
+import { DynamicLinkProps } from "./types";
 
 export const DynamicLink = ({ t, href, ariaLabel }: DynamicLinkProps) => {
   const { t: translate } = useTranslation();

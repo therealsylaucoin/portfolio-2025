@@ -1,14 +1,11 @@
 {       
-    "heading": "Syl Codes",
-    "subheading": "Web Developer",
+    "heading": "Hi, I'm Syl Aucoin,",
+    "subheading": "and I'm a Web Developer.",
+    "headerLink": "Work with me",
     "about": [
         {
-            "copy": "J'suis Syl",
-            "type": "h1"
-        },
-        {
-            "copy": "A Web Developer based in Toronto, Canada.",
-            "type": "p"
+            "copy": "About Syl Aucoin",
+            "type": "h2"
         },
         {
             "copy": "I am passionate about building!",
@@ -31,7 +28,7 @@
             "type": "p"
         },
         {
-            "copy": "Je parle français, aussi!",
+            "copy": "I also speak Emglish!",
             "type": "p"
         }
     ],

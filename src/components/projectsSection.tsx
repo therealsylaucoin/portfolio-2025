@@ -1,20 +1,12 @@
 import { useTranslation } from "react-i18next";
 import DynamicText from "./shared/dynamicText";
 import DynamicLink from "./shared/dynamicLink";
-
-interface Project {
-  title: string;
-  description: string;
-  liveUrl: string;
-  githubUrl?: string;
-  imageUrl: string;
-  demoUrl?: string;
-}
+import { ProjectProps } from "./types";
 
 const ProjectsSection = () => {
   const { t, ready } = useTranslation();
   if (!ready) return "loading...";
-  const projects = t("projects", { returnObjects: true }) as Project[];
+  const projects = t("projects", { returnObjects: true }) as ProjectProps[];
 
   return (
     <section>

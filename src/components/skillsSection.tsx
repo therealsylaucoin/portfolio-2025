@@ -11,7 +11,6 @@ const SkillsSection = () => {
     { heading: "skillsMiscHeading", listKey: "skillsMiscList" },
   ];
 
-
   return (
     <section>
       <DynamicText type="h2" t="skillsHeading"/>

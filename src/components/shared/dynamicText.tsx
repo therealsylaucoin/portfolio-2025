@@ -1,13 +1,5 @@
-// import React from "react";
-// import styled from "styled-components";
 import { useTranslation } from "react-i18next";
-
-interface DynamicTextProps {
-  t: string;
-  type?: keyof JSX.IntrinsicElements; 
-  href?: string;
-  ariaLabel?: string;
-}
+import { DynamicTextProps } from "./types";
 
 export const DynamicText = ({ type = "p", t }: DynamicTextProps) => {
   const { t: translate } = useTranslation();

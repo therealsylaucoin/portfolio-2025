@@ -1,37 +1,37 @@
 import { useTranslation } from "react-i18next";
-import DynamicLink from "../shared/dynamicLink";
 import DynamicText from "../shared/dynamicText";
-import { ProjectProps } from "./types";
+import { ProjectsSectionProps } from "./types";
+import Project from "./project";
+import styled from "styled-components";
+
+const Wrapper = styled.section`
+  background-color: #121E19;
+`;
+
+const StyledList = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+`;
 
 const ProjectsSection = () => {
   const { t, ready } = useTranslation();
   if (!ready) return "loading...";
-  const projects = t("projects", { returnObjects: true }) as ProjectProps[];
+  const projects = t("projects", { returnObjects: true }) as ProjectsSectionProps[];
 
   return (
-    <section>
-      <DynamicText type="h2" t="projectsHeading"/>
-      <DynamicText t="projectsCopy"/>
-
-      <ul>
-      {projects.map((project) => {
+    <Wrapper>
+      <DynamicText type="h2" t="projectsHeading" size="3rem"/>
+      <StyledList>
+        {projects.map((project) => {
+          console.log(project)
         return (
-        <li key={project.title}>
-          <DynamicText t={project.title} />
-          <DynamicText t={project.description} />
-          <DynamicLink href={project.liveUrl} t="projectsLiveLink" ariaLabel="projectsLiveAria"/>
-          {project.githubUrl && (
-            <DynamicLink href={project.githubUrl} t="projectsGithubLink" ariaLabel="projectsGithubAria"/>
-          )}
-          {project.demoUrl && (
-            <DynamicLink href={project.demoUrl} t="projectsDemoLink" ariaLabel="projectsDemoAria"/>
-          )}
-          <img src={project.imageUrl} aria-label={`${t("projectsImgAriaLabel")}${project.title}`}/>
-        </li>
+          <Project project={project}/>
         );
       })}
-      </ul>
-    </section>
+      </StyledList>
+    </Wrapper>
   );
 };
 

@@ -2,11 +2,8 @@
     "heading": "Bonjour, j'suis Syl Aucoin,",
     "subheading": "et j'suis développeur web.",
     "headerLink": "Travaillons ensemble",
+    "aboutHeading": "A propos de Syl Aucoin",
     "about": [
-        {
-            "copy": "A propos de Syl Aucoin",
-            "type": "h2"
-        },
         {
             "copy": "La création me passionne, à la fois avec mes mains et mon cœur.",
             "type": "p"

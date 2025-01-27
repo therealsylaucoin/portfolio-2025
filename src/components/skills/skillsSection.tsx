@@ -1,5 +1,15 @@
 import { useTranslation } from "react-i18next";
 import DynamicText from "../shared/dynamicText";
+import styled from "styled-components";
+
+const SkillTypeWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  text-align: right;
+  position: relative;
+  left: 50%;
+`;
 
 const SkillsSection = () => {
   const { t, ready } = useTranslation();
@@ -13,23 +23,23 @@ const SkillsSection = () => {
 
   return (
     <section>
-      <DynamicText type="h2" t="skillsHeading"/>
+      <DynamicText type="h2" t="skillsHeading" size="3rem"/>
       <DynamicText t="skillsCopy"/>
       <DynamicText t="skillsTop"/>
 
       {skillCategories.map(({ heading, listKey }) => {
         const skills = t(listKey, { returnObjects: true }) as string[];
         return (
-          <div key={heading}>
-            <DynamicText type="h3" t={heading} />
+          <SkillTypeWrapper key={heading}>
+            <DynamicText type="h3" t={heading} color="#A799B7"/>
             <ul>
               {skills.map((skill: string, index: number) => (
                 <li key={`${skill}-${index}`}>
-                  <DynamicText t={skill} />
+                  <DynamicText type="span" t={skill}  />
                 </li>
               ))}
             </ul>
-          </div>
+          </SkillTypeWrapper>
         );
       })}
     </section>

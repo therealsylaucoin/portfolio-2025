@@ -1,23 +1,43 @@
+import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 import { supportedLngs } from "./config";
+import { LanguageButtonProps } from "./types";
+
+const LocaleSwitcherWrapper = styled.div`
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+`;
+
+const LanguageButton = styled.button<LanguageButtonProps>`
+  background-color: ${(props) => (props.isActive ? "#A799B7" : "transparent")};
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: #95BF8F;
+    color: #121E19;
+  }
+`;
 
 export default function LocaleSwitcher() {
   const { i18n } = useTranslation();
 
   return (
-    <div className="flex items-center">
-      <div className="locale-switcher">
-        <select
-          value={i18n.resolvedLanguage}
-          onChange={(e) => i18n.changeLanguage(e.target.value)}
+    <LocaleSwitcherWrapper>
+      {Object.entries(supportedLngs).map(([code, name]) => (
+        <LanguageButton
+          key={code}
+          onClick={() => i18n.changeLanguage(code)}
+          isActive={i18n.resolvedLanguage === code}
         >
-          {Object.entries(supportedLngs).map(([code, name]) => (
-            <option value={code} key={code}>
-              {name}
-            </option>
-          ))}
-        </select>
-      </div>
-    </div>
+          {name}
+        </LanguageButton>
+      ))}
+    </LocaleSwitcherWrapper>
   );
 }

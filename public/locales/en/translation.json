@@ -2,11 +2,8 @@
     "heading": "Hi, I'm Syl Aucoin,",
     "subheading": "and I'm a Web Developer.",
     "headerLink": "Let's work together",
+    "aboutHeading": "About Syl Aucoin",
     "about": [
-        {
-            "copy": "About Syl Aucoin",
-            "type": "h2"
-        },
         {
             "copy": "I’m passionate about building — both with my hands and my heart.",
             "type": "p"

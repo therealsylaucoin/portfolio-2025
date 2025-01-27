@@ -4,8 +4,8 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 export const supportedLngs = {
-  en: "English",
-  fr: "French",
+  en: "EN",
+  fr: "FR",
 };
 
 i18n

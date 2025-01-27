@@ -12,9 +12,9 @@ export const theme = {
       pageTop: '30px',
     },
     fonts: {
-      xs: '0.8rem',
-      sm: '0.9rem',
       base: '1rem',
-      md: '1.2rem',
+      md: '1.5rem',
+      l: '3rem',
+      xl: '4rem'
     }
   };

@@ -3,13 +3,16 @@ import DynamicLink from "../shared/dynamicLink";
 import DynamicText from "../shared/dynamicText";
 import { ProjectProps } from "./types";
 import styled from "styled-components";
+import { theme } from "../../styles/theme";
 
 const Wrapper = styled.li`
-  background-color: #121E19;
+  background-color: rgba(0, 0, 0, .25);
   width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
 `;
 
 const ImageContainer = styled.div`
@@ -29,7 +32,7 @@ const Project = ({ project }: ProjectProps) => {
   return (
     <Wrapper key={title}>
       <div>
-        <DynamicText t={title} color="#95BF8F" size="20px"/>
+        <DynamicText t={title} color={theme.colors.green} size={theme.fonts.md}/>
         <DynamicText t={description} />
         <DynamicLink href={liveUrl} t="projectsLiveLink" ariaLabel="projectsLiveAria"/>
         {githubUrl && (
@@ -47,11 +50,3 @@ const Project = ({ project }: ProjectProps) => {
 };
 
 export default Project;
-
-
-
-
-
-
-
-

@@ -6,10 +6,13 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.colors.white};
     font-family: "Host Grotesk", serif;
     font-weight: lighter;
-    margin: 0;
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 1500px;
   }
   h1 {
     margin: 0;
+    font-weight: lighter;
   }
   h2,  
   h3 {

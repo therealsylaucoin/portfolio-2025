@@ -3,9 +3,10 @@ import DynamicText from "../shared/dynamicText";
 import { ProjectsSectionProps } from "./types";
 import Project from "./project";
 import styled from "styled-components";
+import { theme } from "../../styles/theme";
 
 const Wrapper = styled.section`
-  background-color: #121E19;
+  background-color: ${theme.colors.hunter};
 `;
 
 const StyledList = styled.ul`
@@ -22,7 +23,7 @@ const ProjectsSection = () => {
 
   return (
     <Wrapper>
-      <DynamicText type="h2" t="projectsHeading" size="3rem"/>
+      <DynamicText type="h2" t="projectsHeading" size={theme.fonts.l}/>
       <StyledList>
         {projects.map((project) => {
           console.log(project)

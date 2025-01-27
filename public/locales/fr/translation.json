@@ -1,0 +1,161 @@
+{       
+    "heading": "Syl Codes",
+    "subheading": "Web Developer",
+    "about": [
+        {
+            "copy": "J'suis Syl",
+            "type": "h1"
+        },
+        {
+            "copy": "A Web Developer based in Toronto, Canada.",
+            "type": "p"
+        },
+        {
+            "copy": "I am passionate about building!",
+            "type": "p"
+        },
+        {
+            "copy": "Building with the hands: I’m naturally handy and have always found satisfaction in making things: from furniture to pottery, from inventing games to creating menus, and so much more. I love dabbling with new hobbies on a regular basis, always enjoying the process as much as the result.",
+            "type": "p"
+        },
+        {
+            "copy": "This passion for building is what drove me to learning web development. Learning to code and solving problems on my screen immediately felt like playing video games to me (for context, I REALLY love video games). I’m constantly amazed at how powerful a few lines of code can be and in awe of the results being rendered. The variety of different ways to approach a problem keeps me on my toes and I’m excited to keep learning and discovering techniques, languages and frameworks.",
+            "type": "p"
+        },
+        {
+            "copy": "Building with the heart: I’m what people call a people person. I simply love being around others, listening to people’s stories, passions, problems and ideas. I never miss an opportunity to lend a helping hand, or to provide a place for others to approach things differently (which I find is often the best help!). I take pride in having built the reputation of being someone others can count on whether they need to get something done, a laugh, or are looking to be heard and supported. I believe that fostering positivity and community building can have a huge impact on those around me.",
+            "type": "p"
+        },
+        {
+            "copy": "I’m excited to step into a role within a collaborative environment where I will continue to hone my skills and keep growing as a developer. Let’s connect!",
+            "type": "p"
+        },
+        {
+            "copy": "Je parle français, aussi!",
+            "type": "p"
+        }
+    ],
+    "headshotAriaLabel": "Une photo de Syl",
+    "projectsHeading": "My Work",
+    "projectsCopy": "Here is my work",
+    "projectsGithubLink": "View project GitHub",
+    "projectsLiveLink": "View Live",
+    "projectsDemoLink": "View Demo",
+    "projectsImgAriaLabel": "A laptop and mobile mockup of: ",
+    "projects": [
+        {
+            "title": "PC Optimum",
+            "description": "",
+            "liveUrl": "https://www.pcoptimum.ca/dashboard",
+            "imageUrl": "src/assets/projects/pcOptimumMockup.png"
+        },
+        {
+            "title": "Personal Portfolio 1.0",
+            "description": "My old Portfolio",
+            "liveUrl": "/",
+            "githubUrl": "/",
+            "imageUrl": "src/assets/projects/oldPortfolioMockup.png"
+        },
+        {
+            "title": "Monster Mash",
+            "description": "Heavily inspired by one of my favourite songs, the Monster Mash. A classic memory card game, which includes two modes (friendly and scary), three difficulty levels and a move counter.",
+            "liveUrl": "https://themonstermash.netlify.app",
+            "githubUrl": "https://github.com/therealsylaucoin/monsterMash",
+            "imageUrl": "src/assets/projects/monsterMashMockup.png"
+        },
+        {
+            "title": "Oblique Strategies",
+            "description": "A take on Brian Eno's timeless lateral thinking deck. Allows the user to draw a random card from the Oblique Strategies, or from Collective Strategies deck which is populated by user submissions. The user can also tweet the strategy they picked.",
+            "liveUrl": "https://obliquecollective.netlify.app",
+            "githubUrl": "https://github.com/therealsylaucoin/obliqueCollective",
+            "demoUrl": "https://www.loom.com/share/589c82b7ce9d437f972950c68fd59271",
+            "imageUrl": "src/assets/projects/obliqueStrategiesMockup.png"
+        },
+        {
+            "title": "Sport Spot",
+            "description": "A pair programming project that uses geolocation to provide the user with sports facilities close to them for a variety of sports. Should the user choose to opt out of sharing their location, facilities are provided for selected cities.",
+            "liveUrl": "https://thesportspot.netlify.app",
+            "githubUrl": "https://github.com/socoin-and-vhok/syl-aucoin-and-victor-hok-project4",
+            "imageUrl": "src/assets/projects/sportSpotMockup.png"
+        },
+        {
+            "title": "House Plant Quiz",
+            "description": "A simple quiz to determine which plant is best suited for your home.",
+            "liveUrl": "https://plantquiz.netlify.app",
+            "githubUrl": "https://github.com/therealsylaucoin/plantQuiz",
+            "imageUrl": "src/assets/projects/houseplantQuizMockup.png"
+        },
+        {
+            "title": "Shoe Kloset",
+            "description": "A fully responsive three page PSD conversion using flexbox and grid.",
+            "liveUrl": "https://sylshoekloset.netlify.app",
+            "githubUrl": "https://github.com/therealsylaucoin/shoeKloset",
+            "imageUrl": "src/assets/projects/shoeKlosetMockup.png"
+        }
+    ],
+    "skillsHeading": "Skills",
+    "skillsCopy": "Before attending Juno College of Technology, I’ve acquired a vast set of skills through working and contributing on a variety of projects and close to two decades of working as a support, business operations and culinary professional. I’m a well rounded developer with an impressive mix of organizational, creative, technical and interpersonal skills.",
+    "skillsTop": "My top skills include: Execution, being great with people, and project management.",
+    "skillsFrontEndHeading": "Front End",
+    "skillsStylingHeading": "Styling & Design",
+    "skillsMiscHeading": "Miscellaneous",
+    "skillsFrontEndList": [
+        "HTML",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "jQuery",
+        "Vue",
+        "Redux",
+        "Firebase",
+        "Accessibility"
+    ],
+    "skillsStylingList": [
+        "CSS",
+        "SASS",
+        "BootStrap",
+        "Tailwind CSS",
+        "Styled-Components",
+        "CSS Modules",
+        "Figma",
+        "Responsive Design"
+    ],
+    "skillsMiscList": [
+        "Terminal",
+        "Git",
+        "Github",
+        "Rest API",
+        "npm",
+        "VS Code",
+        "Pair Programing",
+        "Monorepos",
+        "Docker",
+        "Jest",
+        "webpack",
+        "Vite"
+    ],
+    "socials": [
+        {
+            "name": "Github",
+            "ariaLabel": "Github",
+            "href": "https://github.com/therealsylaucoin"
+        },
+        {
+            "name": "Courriel",
+            "ariaLabel": "envoyer un couriel",
+            "href": "mailto:sylaucoin@gmail.com"
+        },
+        {
+            "name": "Linkedin",
+            "ariaLabel": "linkedin",
+            "href": "https://www.linkedin.com/in/sylvieaucoin"
+        },
+        {
+            "name": "Instagram",
+            "ariaLabel": "instagram",
+            "href": "https://www.instagram.com/sylaucoin"
+        }
+    ],
+    "getInTouch": "I'd love to connect!",
+    "footer": "Crée par Syl Aucoin 2025"
+}

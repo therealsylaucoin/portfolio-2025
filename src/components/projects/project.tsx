@@ -20,7 +20,7 @@ const Wrapper = styled.li`
 
   @media ${device.laptop} {
     width: 26vw;
-    max-width: 434px;
+    max-width: 400px;
   }
 `;
 

@@ -27,10 +27,16 @@ const ImageContainer = styled.div`
   background-image: url("/assets/headshotBg.png"); 
   display: flex;
   justify-content: center;
+  @media ${device.tablet} {
+    flex-direction: column;
+    justify-content: flex-end;
+  }
 `
 
 const Image = styled.img`
   overflow: auto;
+  max-width:400px;
+  max-height: 602px;
 `
 
 const AboutSection = () => {

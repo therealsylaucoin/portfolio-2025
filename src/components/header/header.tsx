@@ -15,6 +15,12 @@ const Wrapper = styled.header`
   }
 `;
 
+const TextContainer = styled.div`
+  @media ${device.tablet} {
+    align-self: flex-end;
+  }
+`
+
 const StyledButton = styled.button`
   border: 1px solid ${theme.colors.mauve};
   color: ${theme.colors.mauve};
@@ -22,7 +28,7 @@ const StyledButton = styled.button`
   border-radius: 25px;
   padding: 0 25px;
   cursor: pointer;
-  margin-top: 100px;
+  margin: 100px 0 50px;
 `
 
 const Header = () => {
@@ -36,13 +42,13 @@ const Header = () => {
     return (
     <Wrapper>
       <LocaleSwitcher/>
-      <div>
+      <TextContainer>
         <DynamicText type="h1" t="heading" size={theme.fonts.xl}/>
         <DynamicText type="h2" t="subheading" color={theme.colors.mauve} fontWeight="lighter"/>
         <StyledButton onClick={scrollToFooter}>
           <DynamicText t="headerLink" size={theme.fonts.base}/>
         </StyledButton>
-      </div>
+      </TextContainer>
     </Wrapper>
   );
 };

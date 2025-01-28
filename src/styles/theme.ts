@@ -8,6 +8,7 @@ export const theme = {
     mauve: '#A799B7'
   },
   fonts: {
+    sm: '0.8rem',
     base: '1rem',
     md: '1.5rem',
     l: '3rem',

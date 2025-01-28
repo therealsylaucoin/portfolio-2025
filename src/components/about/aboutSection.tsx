@@ -3,6 +3,7 @@ import DynamicText from "../shared/dynamicText";
 import { AboutProps } from "./types";
 import styled from "styled-components";
 import { theme, device } from "../../styles/theme";
+import Loading from "../loading";
 
 const Wrapper = styled.section`
   display: flex;
@@ -32,7 +33,7 @@ const ImageContainer = styled.div`
 
 const AboutSection = () => {
   const { t, ready } = useTranslation();
-  if (!ready) return "loading...";
+  if (!ready) return <Loading/>;
   const about = t("about", { returnObjects: true }) as AboutProps[];
 
   return (

@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import DynamicText from "../shared/dynamicText";
+import Loading from "../loading";
 import styled from "styled-components";
 import { theme, device } from "../../styles/theme";
 
@@ -33,7 +34,7 @@ const Div2 = styled.div`
 
 const SkillsSection = () => {
   const { t, ready } = useTranslation();
-  if (!ready) return "loading...";
+  if (!ready) return <Loading/>;
 
   const skillCategories = [
     { heading: "skillsFrontEndHeading", listKey: "skillsFrontEndList" },

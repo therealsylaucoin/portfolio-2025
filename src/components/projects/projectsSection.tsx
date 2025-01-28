@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import DynamicText from "../shared/dynamicText";
+import Loading from "../loading";
 import { ProjectsSectionProps } from "./types";
 import Project from "./project";
 import styled from "styled-components";
@@ -17,7 +18,7 @@ const StyledList = styled.ul`
 
 const ProjectsSection = () => {
   const { t, ready } = useTranslation();
-  if (!ready) return "loading...";
+  if (!ready) return <Loading/>;
   const projects = t("projects", { returnObjects: true }) as ProjectsSectionProps[];
 
   return (

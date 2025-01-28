@@ -4,11 +4,12 @@ import App from './App.tsx';
 import { GlobalStyles } from './styles/global.ts';
 import { theme } from './styles/theme.ts';
 import { ThemeProvider } from 'styled-components';
+import Loading from './components/loading.tsx';
 import "./i18n/config.ts";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <React.StrictMode>
-        <React.Suspense fallback={<div>Loading...</div>}>
+        <React.Suspense fallback={<Loading/>}>
             <ThemeProvider theme={theme}>
                 <GlobalStyles/>
                 <App />

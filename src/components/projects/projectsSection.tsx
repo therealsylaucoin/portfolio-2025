@@ -26,9 +26,9 @@ const ProjectsSection = () => {
     <Wrapper>
       <DynamicText type="h2" t="projectsHeading" size={theme.fonts.l}/>
       <StyledList>
-        {projects.map((project) => {
+        {projects.map((project, index) => {
         return (
-          <Project project={project}/>
+          <Project key={index} project={project}/>
         );
       })}
       </StyledList>

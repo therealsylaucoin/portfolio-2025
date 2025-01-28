@@ -7,7 +7,8 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  color:  ${theme.colors.purple};
+  color: ${theme.colors.purple};
+  background: ${theme.colors.mauve};
 `;
 
 const Loading = () => {

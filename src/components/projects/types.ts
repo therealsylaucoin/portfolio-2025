@@ -5,6 +5,7 @@ export interface ProjectsSectionProps {
   githubUrl?: string;
   imageUrl: string;
   demoUrl?: string;
+  key?: string;
 }
 
 export interface ProjectProps {

@@ -1,8 +1,8 @@
+import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 import DynamicLink from "../shared/dynamicLink";
 import DynamicText from "../shared/dynamicText";
 import { ProjectProps } from "./types";
-import styled from "styled-components";
 import { theme, device } from "../../styles/theme";
 
 const Wrapper = styled.li`
@@ -13,14 +13,14 @@ const Wrapper = styled.li`
   justify-content: space-between;
   padding: 15px;
   border-radius: 20px;
-  margin-bottom: 20px;
 
   @media ${device.tablet} {
-    width: 40%;
+    width: calc(50% - 40px);
   }
 
   @media ${device.laptop} {
-    width: 25%;
+    width: 26vw;
+    max-width: 434px;
   }
 `;
 

@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
+import styled from "styled-components";
+import Loading from "../shared/loading";
 import DynamicText from "../shared/dynamicText";
 import { AboutProps } from "./types";
-import styled from "styled-components";
 import { theme, device } from "../../styles/theme";
-import Loading from "../loading";
 
 const Wrapper = styled.section`
   display: flex;
@@ -11,7 +11,6 @@ const Wrapper = styled.section`
   background-color: ${theme.colors.hunter};
   padding: 0;
   flex-direction: column;
-  
   @media ${device.tablet} {
     flex-direction: row;
   }
@@ -19,7 +18,6 @@ const Wrapper = styled.section`
 
 const TextContainer = styled.div`
   padding: 20px;
-  
   @media ${device.tablet} {
     padding: 50px;
   }

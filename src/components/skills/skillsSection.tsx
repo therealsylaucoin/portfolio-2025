@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
-import DynamicText from "../shared/dynamicText";
-import Loading from "../loading";
 import styled from "styled-components";
+import Loading from "../shared/loading";
+import DynamicText from "../shared/dynamicText";
 import { theme, device } from "../../styles/theme";
 
-const SkillTypeWrapper = styled.div`
+const SkillsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   text-align: right;
@@ -13,7 +13,6 @@ const SkillTypeWrapper = styled.div`
 const GridWrapper = styled.div`
   display: flex;
   flex-direction: column;
-
   @media ${device.tablet} {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -54,7 +53,7 @@ const SkillsSection = () => {
         {skillCategories.map(({ heading, listKey }) => {
           const skills = t(listKey, { returnObjects: true }) as string[];
           return (
-            <SkillTypeWrapper key={heading}>
+            <SkillsWrapper key={heading}>
               <DynamicText type="h3" t={heading} color={theme.colors.mauve}/>
               <ul>
                 {skills.map((skill: string, index: number) => (
@@ -63,7 +62,7 @@ const SkillsSection = () => {
                   </li>
                 ))}
               </ul>
-            </SkillTypeWrapper>
+            </SkillsWrapper>
           );
         })}
         </Div2>

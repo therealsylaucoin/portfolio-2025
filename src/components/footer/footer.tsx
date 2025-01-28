@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
+import styled from "styled-components";
+import Loading from "../shared/loading";
 import DynamicLink from "../shared/dynamicLink";
 import DynamicText from "../shared/dynamicText";
 import { SocialProps } from "./types";
-import styled from "styled-components";
-import Loading from "../loading";
-import { theme } from "../../styles/theme";
+import { theme, device } from "../../styles/theme";
 
 const ListItem = styled.li`
     padding: 16px 16px 16px 0;
@@ -12,7 +12,12 @@ const ListItem = styled.li`
 
 const Footnote = styled.p`
     margin-top: 50px;
+    margin-bottom: 0;
     text-align: center;
+
+    @media ${device.tablet} {
+        margin-bottom: -30px;
+    }
 `
 
 const Footer = () => {

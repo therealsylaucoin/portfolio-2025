@@ -16,7 +16,7 @@ i18n
     lng: "en",
     fallbackLng: "en",
     supportedLngs: Object.keys(supportedLngs),
-    debug: true, //set to false
+    debug: false,
     interpolation: {
       escapeValue: false,
     },

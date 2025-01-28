@@ -1,6 +1,9 @@
+import React from "react";
 import styled from "styled-components";
 import LoadingAnimation from "./loadingAnimation";
 import { theme } from "../../styles/theme";
+
+const { purple, mauve } = theme.colors;
 
 const Wrapper = styled.section`
   height: 100vh;
@@ -8,16 +11,16 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${theme.colors.purple};
-  background: ${theme.colors.mauve};
+  color: ${purple};
+  background: ${mauve};
 `;
 
-const Loading = () => {
+const Loading = React.memo(() => {
   return (
     <Wrapper data-testid="loading">
-      <LoadingAnimation/>
+      <LoadingAnimation />
     </Wrapper>
   );
-};
+});
 
 export default Loading;

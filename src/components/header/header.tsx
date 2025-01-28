@@ -1,52 +1,60 @@
+import React from "react";
 import styled from "styled-components";
-import LocaleSwitcher from "../../i18n/LocaleSwitcher";
 import DynamicText from "../shared/dynamicText";
 import { theme, device } from "../../styles/theme";
 
+const { mauve } = theme.colors;
+const { xl, base } = theme.fonts;
+const { tablet } = device;
+
+const Footer_Id = "footer";
+
 const Wrapper = styled.header`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   min-height: 60vh;
-  flex-direction: column;
 
-  @media ${device.tablet} {
+  @media ${tablet} {
     flex-direction: row-reverse;
   }
 `;
 
 const TextContainer = styled.div`
-  @media ${device.tablet} {
+  @media ${tablet} {
     align-self: flex-end;
   }
-`
+`;
 
-const StyledButton = styled.button`
-  border: 1px solid ${theme.colors.mauve};
-  color: ${theme.colors.mauve};
+const StyledButton = styled.button<{ borderColor: string; textColor: string }>`
+  border: 1px solid ${({ borderColor }) => borderColor};
+  color: ${({ textColor }) => textColor};
   background-color: transparent;
   border-radius: 25px;
   padding: 0 25px;
   cursor: pointer;
   margin: 100px 0 50px;
-`
+`;
+
+const LocaleSwitcher = React.lazy(() => import("../../i18n/LocaleSwitcher"));
 
 const Header = () => {
   const scrollToFooter = () => {
-    const element = document.getElementById('footer');
+    const element = document.getElementById(Footer_Id);
     element?.scrollIntoView({
-      behavior: 'smooth'
-    }); 
+      behavior: "smooth",
+    });
   };
 
-    return (
+  return (
     <Wrapper>
-      <LocaleSwitcher/>
+      <LocaleSwitcher />
       <TextContainer>
-        <DynamicText type="h1" t="heading" size={theme.fonts.xl}/>
-        <DynamicText type="h2" t="subheading" color={theme.colors.mauve} fontWeight="lighter"/>
-        <StyledButton onClick={scrollToFooter}>
-          <DynamicText t="headerLink" size={theme.fonts.base}/>
+        <DynamicText type="h1" t="heading" size={xl} />
+        <DynamicText type="h2" t="subheading" color={mauve} fontWeight="lighter" />
+        <StyledButton borderColor={mauve} textColor={mauve} onClick={scrollToFooter}>
+          <DynamicText t="headerLink" size={base} />
         </StyledButton>
       </TextContainer>
     </Wrapper>

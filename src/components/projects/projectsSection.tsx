@@ -6,8 +6,11 @@ import DynamicText from "../shared/dynamicText";
 import { ProjectsSectionProps } from "./types";
 import { theme } from "../../styles/theme";
 
+const { hunter } = theme.colors;
+const { l } = theme.fonts;
+
 const Wrapper = styled.section`
-  background-color: ${theme.colors.hunter};
+  background-color: ${hunter};
 `;
 
 const StyledList = styled.ul`
@@ -20,17 +23,16 @@ const StyledList = styled.ul`
 const ProjectsSection = () => {
   const { t, ready } = useTranslation();
   if (!ready) return <Loading/>;
-  const projects = t("projects", { returnObjects: true }) as ProjectsSectionProps[];
+
+  const projects = (t("projects", { returnObjects: true }) || []) as ProjectsSectionProps[];
 
   return (
     <Wrapper>
-      <DynamicText type="h2" t="projectsHeading" size={theme.fonts.l}/>
+      <DynamicText type="h2" t="projectsHeading" size={l}/>
       <StyledList>
-        {projects.map((project, index) => {
-        return (
-          <Project key={index} project={project}/>
-        );
-      })}
+      {projects.map((project) => (
+        <Project key={project.title} project={project} />
+      ))}
       </StyledList>
     </Wrapper>
   );

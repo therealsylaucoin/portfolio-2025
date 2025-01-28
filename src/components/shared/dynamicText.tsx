@@ -14,9 +14,8 @@ const StyledText = styled.p<StyledTextProps>`
   font-weight: ${(props) => props.fontWeight};
 `;
 
-export const DynamicText = ({ type = "p", t, size, color, fontWeight }: DynamicTextProps & StyledTextProps) => {
+export const DynamicText = ({ type: Element = "p", t, size, color, fontWeight }: DynamicTextProps & StyledTextProps) => {
   const { t: translate } = useTranslation();
-  const Element = type;
 
   return (
     <StyledText as={Element} size={size} color={color} fontWeight={fontWeight}>

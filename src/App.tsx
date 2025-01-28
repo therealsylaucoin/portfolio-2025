@@ -4,7 +4,7 @@ import AboutSection from './components/about/aboutSection';
 import ProjectsSection from './components/projects/projectsSection';
 import SkillsSection from './components/skills/skillsSection';
 import Footer from './components/footer/footer';
-import { shouldForwardProp } from './utils';
+import { shouldForwardProp } from './utils/utils';
 
 const App = () => {
   return (

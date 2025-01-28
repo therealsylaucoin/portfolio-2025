@@ -14,7 +14,7 @@ const Wrapper = styled.section`
 
 const Loading = () => {
   return (
-    <Wrapper>
+    <Wrapper data-testid="loading">
       <LoadingAnimation/>
     </Wrapper>
   );

@@ -4,7 +4,7 @@ import App from './App.tsx';
 import { GlobalStyles } from './styles/global.ts';
 import { theme } from './styles/theme.ts';
 import { ThemeProvider } from 'styled-components';
-import Loading from './components/shared/loading.tsx';
+import Loading from './components/loading/loading.tsx';
 import "./i18n/config.ts";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

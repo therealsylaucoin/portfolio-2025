@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
-import Loading from "../shared/loading";
+import Loading from "../loading/loading";
 import DynamicText from "../shared/dynamicText";
 import { theme, device } from "../../styles/theme";
 

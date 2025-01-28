@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import LoadingAnimation from "./loadingAnimation";
 import { theme } from "../../styles/theme";
 
 const Wrapper = styled.section`
@@ -14,7 +15,7 @@ const Wrapper = styled.section`
 const Loading = () => {
   return (
     <Wrapper>
-      <p>Loading...</p>
+      <LoadingAnimation/>
     </Wrapper>
   );
 };

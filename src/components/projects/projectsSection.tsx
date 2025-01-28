@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
-import Loading from "../shared/loading";
+import Loading from "../loading/loading";
 import Project from "./project";
 import DynamicText from "../shared/dynamicText";
 import { ProjectsSectionProps } from "./types";

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
-import Loading from "../shared/loading";
+import Loading from "../loading/loading";
 import DynamicLink from "../shared/dynamicLink";
 import DynamicText from "../shared/dynamicText";
 import { SocialProps } from "./types";

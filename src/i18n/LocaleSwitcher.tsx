@@ -12,7 +12,7 @@ const LocaleSwitcherWrapper = styled.div`
 
 const LanguageButton = styled.button<LanguageButtonProps>`
   background-color: ${(props) => (props.isActive ? "#A799B7" : "transparent")};
-  color: #fff;
+  color: ${(props) => (props.isActive ? "#000" : "#fff")};
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;

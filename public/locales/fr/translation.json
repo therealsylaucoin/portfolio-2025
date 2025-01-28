@@ -39,14 +39,14 @@
         },
         {
             "title": "Portfolio Personel 1.0",
-            "description": "Mon premier portfolio",
+            "description": "Mon premier portfolio - fait avec HTML, Sass et JavaScript",
             "liveUrl": "https://sylcodes.com",
             "githubUrl": "https://github.com/therealsylaucoin/therealsylaucoin.github.io",
             "imageUrl": "assets/oldPortfolioMockup.png"
         },
         {
             "title": "Monster Mash",
-            "description": "Fortement inspiré par l’une de mes chansons préférées, Monster Mash. Un jeu de carte mémoire classique, qui comprend deux modes (amical et effrayant), trois niveaux de difficulté et un compteur de mouvements.",
+            "description": "Inspiré par l’une de mes chansons préférées, Monster Mash. Un jeu de carte mémoire classique, qui comprend deux modes (amical et effrayant), trois niveaux de difficulté et un compteur de mouvements.",
             "liveUrl": "https://themonstermash.netlify.app",
             "githubUrl": "https://github.com/therealsylaucoin/monsterMash",
             "imageUrl": "assets/monsterMashMockup.png"

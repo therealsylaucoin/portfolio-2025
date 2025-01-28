@@ -28,6 +28,7 @@ export const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
     color: ${({ theme }) => theme.colors.green};
+    padding: 16px 16px 16px 0;
   }
   a:visited {
     color: ${({ theme }) => theme.colors.mauve};

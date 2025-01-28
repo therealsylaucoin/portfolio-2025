@@ -39,14 +39,14 @@
         },
         {
             "title": "Personal Portfolio 1.0",
-            "description": "My first Portfolio",
+            "description": "My first Portfolio - built with HTML, Sass and JavaScript",
             "liveUrl": "https://sylcodes.com",
             "githubUrl": "https://github.com/therealsylaucoin/therealsylaucoin.github.io",
             "imageUrl": "assets/oldPortfolioMockup.png"
         },
         {
             "title": "Monster Mash",
-            "description": "Heavily inspired by one of my favourite songs, the Monster Mash. A classic memory card game, which includes two modes (friendly and scary), three difficulty levels and a move counter.",
+            "description": "Inspired by one of my favourite songs, the Monster Mash. A classic memory card game, which includes two modes (friendly and scary), three difficulty levels and a move counter.",
             "liveUrl": "https://themonstermash.netlify.app",
             "githubUrl": "https://github.com/therealsylaucoin/monsterMash",
             "imageUrl": "assets/monsterMashMockup.png"

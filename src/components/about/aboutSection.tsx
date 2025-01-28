@@ -31,6 +31,10 @@ const ImageContainer = styled.div`
   justify-content: center;
 `
 
+const Image = styled.img`
+  overflow: auto;
+`
+
 const AboutSection = () => {
   const { t, ready } = useTranslation();
   if (!ready) return <Loading/>;
@@ -45,7 +49,7 @@ const AboutSection = () => {
         ))}
       </TextContainer>
       <ImageContainer>
-        <img src="/assets/headshot.png" aria-label={t("headshotAriaLabel")}/>
+        <Image src="/assets/headshot.png" aria-label={t("headshotAriaLabel")}/>
       </ImageContainer>
     </Wrapper>
   );
